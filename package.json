@@ -1,0 +1,32 @@
+{
+  "name": "dark-magenta",
+  "displayName": "Dark Magenta",
+  "description": "Magenta-ish dark theme for VSCode",
+  "icon": "assets/icon.png",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "magenta",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aely0/DarkMagenta"
+  },
+  "homepage": "https://github.com/Aely0/DarkMagenta",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Magenta",
+        "uiTheme": "vs-dark",
+        "path": "themes/dark-magenta-color-theme.json"
+      }
+    ]
+  }
+}
